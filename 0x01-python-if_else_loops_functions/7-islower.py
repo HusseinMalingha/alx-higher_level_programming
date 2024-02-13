@@ -5,5 +5,6 @@ def islower(c):
     else:
         return False
 
+
 if __name__ == "__main__":
     islower(c)

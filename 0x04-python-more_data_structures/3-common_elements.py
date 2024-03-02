@@ -8,10 +8,12 @@ def common_elements(set_1, set_2):
     set_2(set) : second set
 
     Returns:
-    list: new_list
+    set: my_set
     """
-    new_list = list(set_1 & set_2)
-    return new_list
+    
+    my_set = set_1 & set_2
+
+    return my_set
 
 
 if __name__ == "__main__":

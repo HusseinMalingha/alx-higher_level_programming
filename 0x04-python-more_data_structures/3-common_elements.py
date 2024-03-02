@@ -11,9 +11,7 @@ def common_elements(set_1, set_2):
     set: my_set
     """
     
-    my_set = set_1 & set_2
-
-    return my_set
+    return set_1 & set_2
 
 
 if __name__ == "__main__":

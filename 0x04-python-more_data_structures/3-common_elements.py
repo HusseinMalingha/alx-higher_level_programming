@@ -10,7 +10,6 @@ def common_elements(set_1, set_2):
     Returns:
     set: my_set
     """
-    
     return set_1.intersection(set_2)
 
 
